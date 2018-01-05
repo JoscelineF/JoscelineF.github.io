@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+#imgList{
+  list-style-type:none;
+  display:block;
+  width:870px;
+  height:440px;
+  border:1px solid #bbb;
+  margin:30px auto;
+  padding:10px 0 0 0;
+}
+#imgList li{
+  display:inline-block;
+  float:left;
+  width:205px;
+  height:205px;
+  border:1px solid #bbb;
+  margin:0 0 10px 10px;
+}
+#imgList li img{
+  float:left;
+  cursor:crosshair;
+  filter:alpha(opacity=30);
+  opacity:0.3;
+}
+#imgList li.current img{
+  filter:alpha(opacity=100);
+  opacity:1;
+}
