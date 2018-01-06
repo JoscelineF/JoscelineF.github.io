@@ -1,0 +1,43 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+#container{
+  width:80%;
+  margin: 20px auto;
+  font-family: Helvetica,sans-serif;
+}
+#tabs{
+  overflow:hidden;  
+  color:white;
+  list-style-type:none;
+  border:1px solid black;
+  text-align:center;
+  background-color:#333;
+}
+#tabs li{
+  margin:0;
+  float:left;
+  display: inline-block;  
+  cursor:pointer;  
+  font-size: 1.3em;
+  padding:0 28px;
+  line-height:40px;
+}
+#contents{
+  border:1px solid black;
+  border-top: none;
+  padding: 25px;
+}
+#contents div{
+  font-size:1.1em;
+  line-height:30px;
+  display:none;
+}
+div #first{
+  display:block;
+}
+#tabs li:hover, #tabs li:active{
+  background-color:#aaa;
+}
