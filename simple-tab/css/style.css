@@ -41,3 +41,7 @@ div #first{
 #tabs li:hover, #tabs li:active{
   background-color:#aaa;
 }
+
+.activ {
+  background-color:#aaa;
+}
